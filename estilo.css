@@ -1,81 +1,10 @@
 body{
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
-    margin:150px auto;
-    width: 740px;
+    background-color: #de700e;
+    font-family: "Roboto Thin", serif;
+    color: #333333;
 }
-
-#page{
-    box-shadow: 0px 0px 50px rgb(0, 0, 0);
-    background-color: rgb(0, 107, 121);
-    float: left;
-    width: 720px;
-    padding: 10px;
-}  
-
-nav{
-    float: left;
-    width: 150px;
-   
-}
-
-nav ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-nav ul li{
-    margin: 5px;
-    padding: 10px;
-    text-transform: capitalize;
-    font-size: 20px;
-    border-radius: 152px 140px 228px 152px;
-    border-style:solid;
-    border-width: 3px;
-    border-color: black;
-}
-nav ul li:hover{
-    background-color: orange;
-
-}
-
-nav ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-section{
-
-    float: left;
-    width: 570px;
-
-}
-
-article{
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px 10px 10px 10px;
-    border-style: solid;
-    border-color: rgb(42, 56, 54);
-    border-width: 5px;
-}
-
-p{
-    text-align: justify;
-
-}
-
-footer{
-    border-color: olive;
-    border-radius: 10px 10px 10px 10px;
-    border-style: solid;
-    border-width: 5px;
-    float: right;
-    text-align: center;
-    width: 543px;
-    padding: 10px;
+h1{
+    color:red;
+    margin: 0 auto;
 
 }
