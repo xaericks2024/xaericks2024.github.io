@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B5BFC8;
+    color: #333333;
+    font-family: 'Roboto', 'sans-serif';
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+nav {
+    background-color: #de700e;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 50px;
+}
+nav ul li a {
+    font-size: 24px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #ffff;
+    background-color: #37434f;
+}
+li a{
+    color: #ffff;
+    background-color: #37434f;
+}
+li a:hover{
+    background-color: #000000;
+    transition: 1.5s;
+}
+/*FILTROS DE TALLERES*/
+.FiltrosTalleres {
+    padding: 3rem 0;
+}
+.ContainerFT{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+    padding: 3rem 0;
+
+}
+.imgFT{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.imgFT img{
+    width: 650px;
+    border-radius: 25px;
+}
+.BoxFT{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BoxFT h2{
+    margin: 2rem 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 30px;
+}
+.BoxFT p{
+    text-align: justify;
+    font-family: 'Open Sans',"sans-serif";
+    margin: .125rem 2rem;
+    padding-bottom: .125rem;
+    font-size: 18px;
+}
+.ContainerFT1{
+    width: 50%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+.ContainerFT1, .ContainerFT2 h3{
+    font-size: 25px;
+}
+.boxFT1{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #de700e;
+    border-radius: 25px;
+
+}
+
+.ContainerFT2{
+    width: 50%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+.boxFT2{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #de700e;
+    border-radius: 25px;
+
+}
+.VFiltros{
+    padding: 3rem 0;
+    box-shadow: 0 0 55px 5px rgb(0 0 0 /6%);
+}
+.AF h2{
+    margin: 2rem 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 30px;
+}
+.AF p{
+    text-align: center;
+    font-family: 'Open Sans',"sans-serif";
+    margin: .125rem 2rem;
+    padding-bottom: 2rem;
+    font-size: 18px;
+
+}
+.boxFT1:hover{
+   background-color: #f58d3e;
+
+}
+.boxFT2:hover{
+    background-color: #f58d3e;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #de700e;
+    color: #ffff;
+    font-family: 'Open Sans',"sans-serif";
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}

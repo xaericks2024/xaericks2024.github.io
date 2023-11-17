@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B5BFC8;
+    color: #333333;
+    font-family: 'Roboto', 'sans-serif';
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+nav {
+    background-color: #de700e;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 50px;
+}
+nav ul li a {
+    font-size: 24px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #ffff;
+    background-color: #37434f;
+}
+li a{
+    color: #ffff;
+    background-color: #37434f;
+}
+li a:hover{
+    background-color: #000000;
+    transition: 1.5s;
+}
+.imgBanner {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 68vh;
+
+}
+.boxB {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+}
+.boxB {
+    text-align: center;
+    font-size: 70px;
+}
+.left, .right {
+    display: inline-block;
+}
+.left{
+    color: red;
+}
+.right{
+    color: blue;
+}
+.servs {
+    padding: .125rem 0;
+}
+.ContainerServ{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+.boxSv{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxSv:hover{
+    box-shadow: 0 0 55px 5px rgba(0, 0, 0, 50%);
+    transition: 1.5s;
+}
+.boxSv img{
+    width: 100px;
+}
+.boxSv h3{
+    color: #4c4c4c;
+    margin: 10px 0;
+}
+.boxSv p{
+    text-align: center;
+}
+
+/*NUESTROS SERVICIOS*/
+.NuestraPropuesta {
+    padding: 3rem 0;
+    box-shadow: 0 0 55px 5px rgb(0 0 0 /6%);
+
+}
+.ContainerNP{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+.imgNP{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 50px 5px rgb(0 0 0 /3%);
+}
+.img1{
+    width: 500px;
+}
+.img2{
+    width: 600px;
+}
+.BoxNP{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BoxNP h2{
+    margin: 2rem 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 30px;
+}
+.BoxNP p{
+    text-align: center;
+    font-family: 'Open Sans',"sans-serif";
+    margin: .125rem 2rem;
+    padding-bottom: .125rem;
+    font-size: 18px;
+}
+
+
+/*INFORMACIÓN GENERAL*/
+.InformacionGeneral {
+    padding: 3rem 0;
+}
+.ContainerIG{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+.imgIG{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 50px 5px rgb(0 0 0 /3%);
+}
+.BoxIG{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.BoxIG h2{
+    margin: 2rem 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 30px;
+}
+.BoxIG p{
+    text-align: justify;
+    font-family: 'Open Sans',"sans-serif";
+    margin: .125rem 2rem;
+    padding-bottom: .125rem;
+    font-size: 18px;
+}
+/*SERVICIOS*/
+.Servicios {
+    padding: 3rem 0;
+    box-shadow: 0 0 50px 5px rgb(0 0 0 /3%);
+}
+.SubServicios{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.SubServicios h2{
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    font-size: 25px;
+}
+.SubServicios p{
+    text-align: center;
+    font-family: 'Open Sans',"sans-serif";
+    margin: 2rem 2rem;
+    padding-bottom: .125rem;
+    font-size: 18px;
+}
+.containerS{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+.boxS{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0 /6%);
+}
+
+.boxS img{
+    width: 500px;
+}
+.boxS h2{
+    margin: 2rem 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 30px;
+}
+.boxS h3{
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    font-size: 25px;
+}
+.boxS p{
+    text-align: center;
+    font-family: 'Open Sans',"sans-serif";
+    margin: 0 2rem;
+    padding-bottom: .125rem;
+    font-size: 18px;
+}
+.Button{
+    background:#de700e;
+    color:#ffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.Button:hover{
+    background-color: #964500;
+}
+/*FOOTER*/
+footer{
+    background-color: #de700e;
+    color: #ffff;
+    font-family: 'Open Sans',"sans-serif";
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}

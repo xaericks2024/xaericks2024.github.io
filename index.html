@@ -2,91 +2,155 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Talleres</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoAI Diagnostic</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="Chat.html">Chat</a></li>
-                <li><a href="#">Talleres</a></li>
+                <li><a href="Talleres.html">Talleres</a></li>
                 <div class="BoxLog">
                     <a href="index.html">
-                        <img src="imagenes1/logo.png" alt=" " width="90">
+                        <img src="assets/images/logoInfo.png" alt=" " width="90">
                     </a>
                 </div>
-                <li><a href="Filtros.html">Reseñas</a></li>
-                <li><a href="#">Feedback</a></li>
+                <li><a href="Filtros.html">Filtros</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        
-        <!--Seccion de Motor-->
-        <section class="taller">
-            <article>
-                <section>
-                    <div>
-                        <h1>Talleres</h1>
-                        <div>
-                            <h1>Filtros</h1>
-                        </div>
-                    </div>
-                </section>
-                <img class="ima" src="imagenes1/talleres.jpg" alt="">
-                <img class="ima2" src="imagenes1/taller-resena.png" alt="">
-                <div class="container">
-                    
-                    <div class="BoxMotor">
-                        <h1> MotorPro</h1>
-                        <p class="txt"> 
-                            El taller "MotorPro" es una experiencia de aprendizaje 
-                            dinámica y creativa que combina la ingeniería, la creatividad y 
-                            la innovación. Este taller está diseñado para orientar en la
-                            inventiva y la resolución de problemas en el ámbito de la mecánica 
-                            y la tecnología. El taller es de gran beneficio para estudiantes
-                        </p>
-
-                    
-                    
-                        <h1>TotalCar</h1>
-                        <p class="txt">
-                            El taller "TotalCar" es una experiencia única para los entusiastas 
-                            de los automóviles que desean llevar la personalización de sus 
-                            vehículos al siguiente nivel. En este taller imaginario, los 
-                            participantes tienen la oportunidad de trabajar con expertos 
-                            en personalización automotriz para transformar sus vehículos en 
-                            obras maestras únicas. Los participantes aprenderán sobre técnicas 
-                            de personalización de carrocería, diseño de interiores, sistemas 
-                            de sonido de alta gama y rendimiento del motor. 
-                        </p>
-                    
-                    
-                        <h1>AutoMundo</h1>
-                        <p class="txt">
-                            El taller "AutoMundo" es una experiencia aventurera diseñada 
-                            para los amantes de los vehículos todoterreno y la exploración. 
-                            En este taller ficticio, los participantes tienen la oportunidad 
-                            de sumergirse en el emocionante mundo del off-roading y la aventura 
-                            todoterreno. Los participantes aprenderán técnicas de conducción 
-                            todoterreno, cómo preparar su vehículo para rutas extremas y cómo 
-                            enfrentar desafíos en terrenos difíciles. 
-                        </p>
-                    </div> 
+        <!--INICIO-->
+        <section class="Banner">
+            <div class="ContainerB">
+                <div class="imgB">
+                    <img src="assets/images/Banner.png" class="imgBanner" alt="">
                 </div>
-            </article>
+                <div class="boxB">
+                    <h1 class="left"><strong>AutoAI</strong></h1><h1 class="right"><strong>Diagnostic</strong></h1>
+                </div>
+            </div>
+        </section>
+        <section class="servs">
+            <div class="ContainerServ">
+                <div class="boxSv" id="NPropuesta">
+                    <img src="assets/images/NuestraPropuesta.png" alt="">
+                    <h3>Nuestra Propuesta</h3>
+                </div>
+                <div class="boxSv" id="IGeneral">
+                    <img src="assets/images/InfoGeneral.png" alt="">
+                    <h3>Información General</h3>
+                </div>
+                <div class="boxSv" id="NServicios">
+                    <img src="assets/images/servicios.png" alt="">
+                    <h3>Nuestros Servicios</h3>
+                </div>
+            </div>
+        </section>
+        <!--NUESTRA PROPUESTA-->
+        <section class="NuestraPropuesta">
+            <div class="ContainerNP">
+                <div class="imgNP">
+                    <img class="img1" src="assets/images/imgNuestraPropuesta1.png" alt="">
+                </div>
+                <div class="imgNP">
+                    <img class="img2" src="assets/images/imgNuestraPropuesta2.png" alt="">
+                </div>
+            </div>
+            <div class="BoxNP">
+                <h2>Nuestra Propuesta</h2>
+                <p>
+                    Una aplicación de diagnóstico vehicular con inteligencia artificial es una
+                    herramienta digital que utiliza algoritmos y modelos de aprendizaje automático
+                    para analizar y ofrecer diagnósticos de problemas mecánicos y eléctricos en
+                    vehículos. Los usuarios pueden ingresar información sobre los síntomas o problemas
+                    que experimentan en sus automóviles, y la aplicación utiliza la información recopilada
+                    para proporcionar un diagnóstico preciso cuando sea posible. En caso de que la aplicación
+                    no pueda determinar el problema, también ofrece la ubicación y detalles de los talleres
+                    de reparación de automóviles mejor calificados y cercanos, permitiendo a los usuarios
+                    encontrar la asistencia profesional que necesitan.
+                </p>
+            </div>
+        </section>
+        <!--INFORMACIÓN GENERAL-->
+        <section class="InformacionGeneral">
+            <div class="ContainerIG">
+                <div class="BoxIG">
+                    <h2>Información General</h2>
+                    <p>
+                        En AutoAI Diagnostic, buscamos transformar por completo la forma en que los
+                        propietarios de vehículos abordan los problemas y el mantenimiento de sus
+                        automóviles. Nuestra aplicación revolucionaria hace uso de la Inteligencia
+                        Artificial para brindar diagnósticos automáticos y recomendaciones de mantenimiento
+                        personalizados.
+                    </p>
+                    <p>
+                        Nuestro objetivo es optimizar por completo tu experiencia de servicio automotriz.
+                        Ya no tendrás que lindiar con la incentidumbre, la búsqueda de talleres o la preocupación
+                        por los costos excesivos. Con AutoAI Diagnostic, puedes estar seguro de que tu vehículo
+                        está en las mejores manos posibles.
+                    </p>
+                </div>
+                <div class="imgIG">
+                    <img src="assets/images/logoInfo.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!--SERVICIOS-->
+        <section class="Servicios">
+            <div class="SubServicios">
+                <h2>Nuestros Servicios</h2>
+                <p>
+                    Conéctate con talleres recomendados de forma fácil. Desde lo básico hasta servicios especializados,
+                    simplificamos tus necesidades automotrices.
+            </div>
+            <div class="containerS">
+                <div class="boxS">
+                    <img class="imgS" src="assets/images/chatbot.png" alt="">
+                    <h3>ChatBot IA</h3>
+                    <p>
+                        Resuelve problemas de automóviles con nuestro chatbot, ofreciendo diagnósticos rápidos y consejos útiles.<br><br>
+                    </p>
+                    <div>
+                        <a href="Chat.html" class="Button">Más Información</a>
+                    </div>
+                </div>
+                <div class="boxS">
+                    <img class="imgS" src="assets/images/talleres.png" alt="">
+                    <h3>Lista de Talleres</h3>
+                    <p>
+                        Descubre talleres para tus necesidades, desde básicas reparaciones hasta servicios especializados.<br><br>
+                    </p>
+                    <div>
+                        <a href="Talleres.html" class="Button">Más Información</a>
+                    </div>
+                </div>
+                <div class="boxS">
+                    <img class="imgS3" src="assets/images/filtro.png" alt="">
+                    <h3>Filtros de Talleres</h3>
+                    <p>
+                        Encuentra fácilmente el taller perfecto con filtros personalizables por ubicación y especialización.<br><br>
+                    </p>
+                    <div>
+                        <a href="Filtros.html" class="Button">Más Información</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <div class="footer-container">
             <small>
-                Copyright &copy; 2023 - MechSolutions.<br>Todos los derechos Reservados
+                Copyright &copy; 2023 - MechSolutions<br>Todos los derechos Reservados
             </small>
         </div>
     </footer>
+    <script src="assets/scripts/main.js"></script>
 </body>
 </html>
